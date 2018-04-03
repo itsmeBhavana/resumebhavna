@@ -1,7 +1,7 @@
 body{
   background: #ddd;
 }
-.flexparent{
+.flex-parent{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -17,7 +17,7 @@ body{
 }
 
 .content{
-  width: 70%;
+  width: 100%;
   height: auto;
   background: #fff;
   margin: 2%;
@@ -40,4 +40,83 @@ h1,#roll{
 }
 a{
   text-decoration: none;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .flex-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile{
+    width: 30%;
+    height: auto;
+    background: #fff;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 20px;
+  }
+
+  .content{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width:760px){
+  .flex-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile{
+    width: 30%;
+    height: auto;
+    background: blue;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 20px;
+  }
+
+  .content{
+    width: 100%;
+    height: auto;
+    background: blue;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 20px;
+  }
+}
+@media only screen and (min-width:761px) and (max-width:1024px){
+  .flex-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile{
+    width: 50%;
+    height: auto;
+    background: blue;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 20px;
+  }
+
+  .content{
+    width: 50%;
+    height: auto;
+    background: green;
+    margin: 2%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 20px;
+  }
 }

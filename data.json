@@ -1,0 +1,21 @@
+{
+  "career":{
+      "info":"To own an enterprise"
+  },
+  "education":[
+    {
+      "degree":"SSC",
+      "school":"st anns high school",
+      "data":["2013","93%"]
+      },
+      {
+        "degree":"INTERMEDIATE",
+        "school":"narayana jr college",
+        "data":["2015","92.6%"]
+        },{
+          "degree":"GRADUATION",
+          "school":"svec",
+          "data":["2019","75%"]
+        }
+  ]
+}
